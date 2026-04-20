@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIUWA GARDENS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="tsconfig.json">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <nav>
+        <div class="brand">
+            <img src="download (3).jpeg" class="logo" alt="logo">
+            <span class="name">LIUWA GARDENS</span>
+        </div>
+
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+        <div class="navy">
+            <a href="#">Bookings</a>
+            <a href="#">Our Services</a>
+            <a href="#">Help</a>
+        </div>
+    </nav>
+</header>
+
+<!-- MAIN -->
+<section class="mainsection">
+
+    <h1>KARIBU HAPA</h1>
+
+    <!-- INTRO -->
+    <section class="intro">
+        <h1>Welcome to LIUWA GARDENS</h1>
+        <p>
+            LIUWA GARDENS is a peaceful hospitality destination located in Saboti, designed to give guests a perfect blend of nature, comfort, and relaxation.
+        </p>
+        <p>
+            Surrounded by greenery and fresh air, our gardens offer a refreshing escape from busy city life.
+        </p>
+    </section>
+
+    <!-- FOOD -->
+    <section>
+        <h2>Available Dishes</h2>
+        <div id="foodContainer"></div>
+    </section>
+    <section class="add-food">
+        <h2>Add New Food</h2>
+        <input type="text" id="foodName" placeholder="Food name">
+        <input type="number" id="foodPrice" placeholder="Price">
+        <input type="text" id="foodImage" placeholder="Image file name or URL">
+
+        <button onclick="addFood()">Add Item</button>
+    </section>
+    <!-- CART -->
+    <section>
+        <h2 class="cartemo">Your Cart 🛒</h2>
+        <div id="cart"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about">
+        <h2>About Us</h2>
+        <p>
+            We are committed to providing quality hospitality experiences. Our goal is to create a place where guests feel at home while enjoying natural surroundings.
+        </p>
+    </section>
+
+    <!-- ROOMS -->
+    <section class="rooms">
+        <h2>Our Rooms</h2>
+        <p>
+            Comfortable rooms designed for individuals, families, and groups. Clean, quiet, and relaxing.
+        </p>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services">
+        <h2>Services</h2>
+        <p>
+            Accommodation, weddings, catering, outdoor events, and photography spaces.
+        </p>
+    </section>
+
+    <!-- WHY US -->
+    <section class="whyus">
+        <h2>Why Choose Us</h2>
+        <p>
+            Safe, peaceful, and affordable environment with excellent service and unforgettable experiences.
+        </p>
+    </section>
+
+    <!-- VISIT -->
+    <section class="visitus">
+        <h2>Visit Us</h2>
+        <p>
+            Book your visit today and enjoy a relaxing stay surrounded by nature.
+        </p>
+    </section>
+
+</section>
+
+<script src="index.js"></script>
+
+</body>
+</html>
+```
+
